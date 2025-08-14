@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Revitalization Imperative | San Diego</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1616182695025-4d3de0845941?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-slate-800 mb-2;
+        }
+        .section-subtitle {
+            @apply text-lg text-slate-600 mb-8 max-w-3xl mx-auto;
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold text-slate-800">Green & Just Futures</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#case-study" class="text-slate-600 hover:text-emerald-600 transition-colors">Case Study</a>
+                <a href="#dashboard" class="text-slate-600 hover:text-emerald-600 transition-colors">Map</a>
+                <a href="#video" class="text-slate-600 hover:text-emerald-600 transition-colors">Video</a>
+                <a href="#data" class="text-slate-600 hover:text-emerald-600 transition-colors">Data</a>
+                <a href="#action" class="text-slate-600 hover:text-emerald-600 transition-colors">Take Action</a>
+                <a href="#about" class="text-slate-600 hover:text-emerald-600 transition-colors">About</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-slate-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#case-study" class="block py-2 px-4 text-sm text-slate-600 hover:bg-emerald-50">Case Study</a>
+            <a href="#dashboard" class="block py-2 px-4 text-sm text-slate-600 hover:bg-emerald-50">Map</a>
+            <a href="#video" class="block py-2 px-4 text-sm text-slate-600 hover:bg-emerald-50">Video</a>
+            <a href="#data" class="block py-2 px-4 text-sm text-slate-600 hover:bg-emerald-50">Data</a>
+            <a href="#action" class="block py-2 px-4 text-sm text-slate-600 hover:bg-emerald-50">Take Action</a>
+            <a href="#about" class="block py-2 px-4 text-sm text-slate-600 hover:bg-emerald-50">About</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Homepage / Hero Section -->
+        <section id="home" class="hero-bg text-white min-h-[60vh] flex items-center">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">The Green Revitalization Imperative</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-slate-200">In Downtown San Diego, a crisis of homelessness intersects with environmental injustice. This project explores how we can create sustainable, green public spaces that serve our most vulnerable residents, not displace them.</p>
+                <a href="#case-study" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Case Study Section -->
+        <section id="case-study" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title">Case Study: San Diego's Dual Crisis</h2>
+                <p class="section-subtitle">Understanding the complex dynamics of homelessness and urban development in Downtown San Diego is the first step toward finding equitable solutions.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                    <!-- What -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="font-bold text-xl mb-2 text-emerald-700">What: A Tale of Two Cities</h3>
+                        <p>The core issue is a single, interconnected crisis: environmental degradation and social inequality. Affluent revitalization exists alongside a massive homelessness emergency, where poor air quality and urban heat islands disproportionately harm unsheltered individuals.</p>
+                    </div>
+                    <!-- Where -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="font-bold text-xl mb-2 text-emerald-700">Where: Downtown's Contested Spaces</h3>
+                        <p>This crisis is concentrated in Downtown San Diego, particularly in neighborhoods like the East Village. This area is simultaneously a hub for social services and a hotspot for luxury development, creating intense gentrification pressure.</p>
+                    </div>
+                    <!-- Who -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="font-bold text-xl mb-2 text-emerald-700">Who: The Vulnerable vs. The Powerful</h3>
+                        <p>The vulnerable group is San Diego's unhoused population—disproportionately people of color and those with disabilities. They exist in a landscape shaped by powerful stakeholders, including developers and city officials, whose goals often prioritize economic growth over social equity.</p>
+                    </div>
+                    <!-- Why -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="font-bold text-xl mb-2 text-emerald-700">Why: A History of Exclusion</h3>
+                        <p>Decades of top-down, capital-led redevelopment have created a "revitalization" that displaces the poor. The narrative of "curing blight" has consistently led to policies and urban designs that exclude, rather than include, the most marginalized residents.</p>
+                    </div>
+                    <!-- How -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="font-bold text-xl mb-2 text-emerald-700">How: Ecogentrification & Hostile Design</h3>
+                        <p>The mechanisms of exclusion are clear. "Greening" projects raise property values, leading to **ecogentrification**. At the street level, **hostile architecture** (like benches with dividers) makes public spaces uninhabitable for those who rely on them for survival.</p>
+                    </div>
+                    <!-- Ethnographic Insight -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="font-bold text-xl mb-2 text-emerald-700">Insight: The Lived Experience</h3>
+                        <p>For unsheltered individuals, public space is not for recreation; it's for survival. The daily reality is a relentless search for safety, clean water, and a place to rest. Hostile design is not just an inconvenience; it's a constant message of dehumanization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ArcGIS Dashboard Section -->
+        <section id="dashboard" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title">Mapping the Crisis</h2>
+                <p class="section-subtitle">This interactive dashboard visualizes the scale of homelessness in San Diego. It provides data on the unsheltered population, key service locations, and demographic trends, helping to ground our advocacy in hard evidence.</p>
+                <div class="border-4 border-slate-200 rounded-lg shadow-lg overflow-hidden">
+                    <iframe 
+                        width="100%" 
+                        height="600" 
+                        src="https://www.arcgis.com/apps/dashboards/9c32fe88a81b408695c235e6c6616537" 
+                        frameborder="0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title">Voices from the Street</h2>
+                <p class="section-subtitle">This short film shares the human stories behind the data, highlighting the urgent need for a more compassionate and inclusive approach to urban planning.</p>
+                
+                <!-- Video Placeholder -->
+                <div class="bg-slate-800 w-full max-w-4xl mx-auto aspect-video rounded-lg shadow-xl flex items-center justify-center mb-8">
+                    <p class="text-white text-2xl font-semibold">Your 6-Minute Video Here</p>
+                </div>
+
+                <!-- Summary & Subtitles -->
+                <div class="max-w-4xl mx-auto text-left">
+                    <h3 class="font-bold text-xl mb-4 text-slate-800">Video Summary & Subtitles</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="font-semibold text-lg mb-2">English Summary</h4>
+                            <p class="text-sm">This video explores the daily challenges faced by unsheltered individuals in Downtown San Diego. Through personal interviews and on-the-ground footage, it contrasts the city's gleaming redevelopment with the harsh realities of living in public spaces that are often designed to be exclusionary. The film argues for a shift in policy towards "humane design," which prioritizes basic human needs like shelter, water, and safety for all residents.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-lg mb-2">Resumen en Español</h4>
+                            <p class="text-sm">Este video explora los desafíos diarios que enfrentan las personas sin hogar en el centro de San Diego. A través de entrevistas personales e imágenes de la vida en la calle, contrasta el brillante redesarrollo de la ciudad con las duras realidades de vivir en espacios públicos a menudo diseñados para excluir. El filme aboga por un cambio en las políticas hacia un "diseño humano", que priorice las necesidades humanas básicas como el refugio, el agua y la seguridad para todos los residentes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data & Analysis Section -->
+        <section id="data" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title">Data & Analysis</h2>
+                <p class="section-subtitle">My research combined spatial analysis of displacement risk with a review of city policy and ethnographic studies to understand the problem from multiple angles.</p>
+                
+                <div class="max-w-5xl mx-auto text-left">
+                    <h3 class="font-bold text-xl mb-4 text-slate-800 text-center">Key Finding: Hostile vs. Humane Design</h3>
+                    <p class="text-center mb-8 text-slate-600">The design of public space is a choice with life-or-death consequences. We must shift from exclusionary designs to inclusive ones.</p>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white rounded-lg shadow-md">
+                            <thead class="bg-slate-800 text-white">
+                                <tr>
+                                    <th class="py-3 px-4 uppercase font-semibold text-sm text-left">Feature</th>
+                                    <th class="py-3 px-4 uppercase font-semibold text-sm text-left">Hostile / Exclusionary Approach</th>
+                                    <th class="py-3 px-4 uppercase font-semibold text-sm text-left">Inclusive / Humane Approach</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-slate-700">
+                                <tr class="border-b">
+                                    <td class="py-3 px-4 font-semibold">Seating</td>
+                                    <td class="py-3 px-4">Benches with dividers; sloped surfaces.</td>
+                                    <td class="py-3 px-4 bg-emerald-50">Long, flat benches; movable chairs.</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-3 px-4 font-semibold">Shelter</td>
+                                    <td class="py-3 px-4">Open, exposed plazas with no cover.</td>
+                                    <td class="py-3 px-4 bg-emerald-50">Covered pavilions; shade trees.</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-3 px-4 font-semibold">Water</td>
+                                    <td class="py-3 px-4">Decorative fountains; no drinking water.</td>
+                                    <td class="py-3 px-4 bg-emerald-50">Accessible drinking fountains.</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-3 px-4 font-semibold">Restrooms</td>
+                                    <td class="py-3 px-4">No public restrooms, or locked facilities.</td>
+                                    <td class="py-3 px-4 bg-emerald-50">Clean, safe, 24/7 public restrooms.</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 font-semibold">Storage</td>
+                                    <td class="py-3 px-4">No options for personal belongings.</td>
+                                    <td class="py-3 px-4 bg-emerald-50">Secure, accessible personal lockers.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="mt-16">
+                    <h3 class="font-bold text-xl mb-4 text-slate-800">Targeted UN Sustainable Development Goals</h3>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow-sm text-center w-40">
+                            <img src="https://placehold.co/60x60/e5243b/ffffff?text=SDG+1" alt="SDG 1 Icon" class="mx-auto mb-2 rounded">
+                            <p class="font-semibold text-sm">SDG 1: No Poverty</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm text-center w-40">
+                            <img src="https://placehold.co/60x60/4c9f38/ffffff?text=SDG+3" alt="SDG 3 Icon" class="mx-auto mb-2 rounded">
+                            <p class="font-semibold text-sm">SDG 3: Good Health</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm text-center w-40">
+                            <img src="https://placehold.co/60x60/c5192d/ffffff?text=SDG+10" alt="SDG 10 Icon" class="mx-auto mb-2 rounded">
+                            <p class="font-semibold text-sm">SDG 10: Reduced Inequalities</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm text-center w-40">
+                            <img src="https://placehold.co/60x60/f99d26/ffffff?text=SDG+11" alt="SDG 11 Icon" class="mx-auto mb-2 rounded">
+                            <p class="font-semibold text-sm">SDG 11: Sustainable Cities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="action" class="py-20 bg-emerald-700 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Become Part of the Solution</h2>
+                <p class="text-lg max-w-3xl mx-auto mb-8 text-emerald-100">Change requires collective action. Your voice can help shift policy from exclusion to inclusion. Here’s how you can make a difference today.</p>
+                <div class="grid md:grid-cols-3 gap-8 text-left">
+                    <div class="bg-white/10 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl mb-2">1. Demand an "Equity-First" Framework</h3>
+                        <p class="text-sm mb-4">Contact your City Council member and the Mayor's office. Urge them to mandate Social Equity Impact Assessments for all new developments and to formally ban hostile architecture in public spaces.</p>
+                        <a href="https://www.sandiego.gov/city-council" target="_blank" class="font-semibold text-emerald-200 hover:text-white">Find Your Council Member &rarr;</a>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl mb-2">2. Support Anti-Displacement Policies</h3>
+                        <p class="text-sm mb-4">Advocate for stronger rent stabilization, more affordable housing, and a right-to-counsel for tenants facing eviction. These policies protect our most vulnerable neighbors from being pushed out.</p>
+                         <a href="https://www.rtfhsd.org/" target="_blank" class="font-semibold text-emerald-200 hover:text-white">Support the RTFH &rarr;</a>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl mb-2">3. Empower Lived Experience</h3>
+                        <p class="text-sm mb-4">Call for the creation of a paid community advisory board composed of individuals who have experienced homelessness. Their expertise is essential for designing solutions that actually work.</p>
+                        <a href="https://www.sandiego.gov/homelessness-strategies-and-solutions" target="_blank" class="font-semibold text-emerald-200 hover:text-white">City Homelessness Strategies &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+                    <!-- Your Photo Placeholder -->
+                    <div class="w-48 h-48 bg-slate-200 rounded-full flex-shrink-0">
+                        <img src="https://placehold.co/192x192/e2e8f0/94a3b8?text=Your+Photo" alt="Your Photo" class="w-full h-full rounded-full object-cover">
+                    </div>
+                    <div class="text-center md:text-left">
+                        <!-- Your Name -->
+                        <h3 class="text-2xl font-bold text-slate-800">Your Name Here</h3>
+                        <!-- Your Bio -->
+                        <p class="mt-2 mb-4">Write a short bio here about your passion for urban planning, social justice, and creating equitable cities. Mention your background, your connection to the issue, and what drives your work.</p>
+                        <h4 class="font-semibold text-lg mt-6 mb-2">Acknowledgements</h4>
+                        <p class="text-sm text-slate-600">I would like to extend my deepest gratitude to my mentors, collaborators, and the community organizations who provided invaluable insights for this project. Special thanks to [Mentor Name], [Organization Name], and all the individuals who shared their stories with courage and honesty.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+            <p class="text-sm mt-2">A project dedicated to building a more just and sustainable San Diego.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+
+</body>
+</html>
